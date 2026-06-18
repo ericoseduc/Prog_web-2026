@@ -20,6 +20,7 @@ h1{
 
 body{
     background-color: #ffffff;
+    margin: 0;
 }
 
 #dados span{
@@ -42,15 +43,4 @@ body{
     border-color: #000000;
     border-top-left-radius: 25px;
     box-shadow: 2px 2px 5px #000000;
-}
-
-div#foto{
-    width: 100%;
-    height: auto;
-    border-radius: 25px;
-}
-
-#foto img{
-    width: 20%;
-    height: auto;
 }
