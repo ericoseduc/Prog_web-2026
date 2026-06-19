@@ -1,0 +1,78 @@
+/*Modificações do EricoCosta*/
+
+:root{
+    --cor_um: hsl(108, 69%, 68%);
+    --cor_dois: hsl(0, 51%, 61%);
+    --cor_transparente: rgba(255, 255, 255, 0.2);
+}
+
+header{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+body{
+    background-color: var(--cor_transparente);
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(135deg, var(--cor_um) 0%, var(--cor_dois) 100%);
+}
+
+main{
+    background-color: var(--cor_transparente);
+    margin: auto;
+    width: 95vw;
+    height: 80vh;
+    /* display: flex;
+    gap: 1em;
+    justify-content: space-between; */
+}
+
+section#informacoes{
+    width: 100%;
+    display: flex;
+    gap: 1em;
+    justify-content: space-between;
+}
+
+div#foto{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#foto img{
+    border-radius: 35px;
+    width: 3in;
+    height: 4in;
+    height: auto;
+}
+
+div#gosto{
+    background-color: var(--cor_um);
+}
+
+div#naogosto{
+    background-color: var(--cor_dois);
+}
+
+div#preferencias > div > ol{
+    margin: auto;
+    padding: auto;
+    text-align: initial;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    position:absolute;
+    font-family: "Black Ops One", cursive;
+}
