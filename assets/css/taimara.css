@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Black+Ops+One&family=Lavishly+Yours&display=swap');
+
+*{
+    color: #de5a18;
+    font-family: "Barlow", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+    color:#de5a18;
+    font-family: "fantasy", cursive;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+#dados > strong{
+    font-family: "Black Ops One", cursive;
+}
+
+body{
+    background-color: #ebc8a2;
+}
+
+#dados span{
+    display: block;
+}
+
+#preferencias{
+    margin-top: 10px;
+    display: flex;
+    text-align: center;
+    gap: 1em;
+    width: 100%;
+}
+#preferencias > div{
+    padding: 7px;
+    padding-bottom: 10px;
+    width: 350px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+    border-top-left-radius: 25px;
+    box-shadow: 2px 2px 5px #000000;
+}
