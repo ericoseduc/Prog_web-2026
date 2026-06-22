@@ -1,0 +1,79 @@
+*{
+    color:#630939;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+
+body{
+    background-color:#f1c4dc;
+
+}
+
+
+*{
+    color: #861d49;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffc6e6;
+    padding: 20px;
+}
+
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif, cursive;
+    font-size: 3em;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #91084c;
+}
+#Dados > span{
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Dados > strong{
+    font-family:Arial, Helvetica, sans-serif, cursive;
+    color: #9b3668;
+}
+#Dados > ul>li{
+    color: #000000;
+}
+
+
+#Preferências{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    
+}
+
+#Preferências > div{
+    padding: 15px;
+    width: 350px;
+    border: 2px solid #f12b7e;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px #000000;
+
+}
+
+#Gosto p,
+#Não\ Gosto p{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    color: rgb(92, 3, 48);
+
+}
+
+
+ul{
+    margin-left: 20px;
+}
+
+li{
+    margin-bottom: 7px;
+}
+
