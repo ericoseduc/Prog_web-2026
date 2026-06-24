@@ -1,4 +1,5 @@
 const dataNascimento = document.querySelector('#dataNascimento');
+const idadeFora = document.querySelector('#idade');
 
 const calculaIdade = (dn) => {
     let dtNascimento = new Date(dn.textContent.split(': ')[1].split('/').reverse().join('-'));
@@ -8,4 +9,5 @@ const calculaIdade = (dn) => {
     }
     return idade;
 }
-console.log(`Idade calculada: ${calculaIdade()} anos`);
+idadeFora.innerHTML = `${calculaIdade(dataNascimento)} anos`;
+console.log(`Idade calculada: ${calculaIdade(dataNascimento)} anos`);
