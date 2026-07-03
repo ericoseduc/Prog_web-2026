@@ -3,12 +3,10 @@
     font-family:Georgia, 'Times New Roman', Times, serif
 }
 
-
 body{
     background-color:#e7abcc;
 
 }
-
 
 *{
     color: #861d49;
@@ -17,12 +15,10 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
-
 body{
     background-color: #ffc6e6;
     padding: 20px;
 }
-
 h1{
     font-family:Georgia, 'Times New Roman', Times, serif, cursive;
     font-size: 5em;
@@ -42,23 +38,19 @@ h1{
     color: #000000;
 }
 
-
 #Preferências{
     margin-top: 20px;
     display: flex;
     gap: 20px;
     
 }
-
 #Preferências > div{
     padding: 15px;
     width: 350px;
     border: 2px solid #f12b7e;
     border-radius: 25px;
     box-shadow: 2px 2px 5px #000000;
-
 }
-
 #Gosto p{
     font-weight: bold;
     text-align: center;
@@ -66,15 +58,15 @@ h1{
     color: rgb(92, 3, 70);
 
 }
-#Não\ Gosto p{
+#NaoGosto p{
     font-weight: bold;
     text-align: center;
     margin-bottom: 10px;
-    color: rgb(92, 3, 48);
-    
-
+    color: rgb(136, 12, 95);
 }
-
+#NaoGosto{
+    background-color: hsl(46, 100%, 85%);
+}
 
 ul{
     margin-left: 20px;
