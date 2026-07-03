@@ -5,7 +5,7 @@
 
 
 body{
-    background-color:#f1c4dc;
+    background-color:#e7abcc;
 
 }
 
@@ -25,7 +25,7 @@ body{
 
 h1{
     font-family:Georgia, 'Times New Roman', Times, serif, cursive;
-    font-size: 3em;
+    font-size: 5em;
     font-weight: 700;
     margin-bottom: 20px;
     color: #91084c;
@@ -36,7 +36,7 @@ h1{
 }
 #Dados > strong{
     font-family:Arial, Helvetica, sans-serif, cursive;
-    color: #9b3668;
+    color: #bd084d;
 }
 #Dados > ul>li{
     color: #000000;
@@ -59,12 +59,19 @@ h1{
 
 }
 
-#Gosto p,
+#Gosto p{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    color: rgb(92, 3, 70);
+
+}
 #Não\ Gosto p{
     font-weight: bold;
     text-align: center;
     margin-bottom: 10px;
     color: rgb(92, 3, 48);
+    
 
 }
 
