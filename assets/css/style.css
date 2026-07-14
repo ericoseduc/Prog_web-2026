@@ -44,3 +44,9 @@ body{
     border-top-left-radius: 25px;
     box-shadow: 2px 2px 5px #000000;
 }
+
+.foto-perfil{
+    border-radius: 35px;
+    width: 1.5rem;
+    height: 2rem;
+}
